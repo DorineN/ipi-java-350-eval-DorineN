@@ -25,13 +25,14 @@ public class CommercialTest {
     public void testPrimeAnnuelleIsHigherThan500d() {
         //GIVEN - Initialisation des données
         Commercial commercial = new Commercial();
-        commercial.setCaAnnuel(10000.50);
+        commercial.setCaAnnuel(100000d);
 
         //WHEN - Exécution/test de la méthode
         Double prime = commercial.getPrimeAnnuelle();
 
         //THEN - Vérification par rapport à la sortie de la méthode
-        Assertions.assertThat(prime).isGreaterThan(500d);
+        //Veillez à être contraignant dans la sortie de la méthode pour éviter les erreurs dans le code
+        Assertions.assertThat(prime).isEqualTo(5000d);
     }
 
     @Test
