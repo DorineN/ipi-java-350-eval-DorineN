@@ -1,4 +1,4 @@
-package com.ipiecoles.java.java350.model;
+/**package com.ipiecoles.java.java350.model;
 
 //import junitparams.Parameters;
 import org.assertj.core.api.Assertions;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-/**
+
  * Created by dorine.niel on 12/03/2018.
 
 public class CommercialTest {

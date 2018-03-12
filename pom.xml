@@ -92,13 +92,14 @@
 			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>pl.pragmatists</groupId>
+			<artifactId>JUnitParams</artifactId>
+			<version>1.1.1</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
-	<dependency>
-		<groupId>pl.pragmatists</groupId>
-		<artifactId>JUnitParams</artifactId>
-		<version>1.1.1</version>
-		<scope>test</scope>
-	</dependency>
+
 	<build>
 		<plugins>
 			<plugin>
