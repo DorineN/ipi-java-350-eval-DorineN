@@ -1,7 +1,5 @@
-package com.ipiecoles.java.java350.model.model;
+package com.ipiecoles.java.java350.model;
 
-
-import com.ipiecoles.java.java350.model.Commercial;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.assertj.core.api.Assertions;
