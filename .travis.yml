@@ -1,1 +1,7 @@
 language: java
+
+addons:
+  sonarcloud:
+      organization: "dorinen-github"
+
+script: mvn sonar:sonar \ -Dsonar.organization=dorinen-github \ -Dsonar.host.url=https://sonarcloud.io \ -Dsonar.login=71c2d383b553a14b1584d3d288ca453cea94e62f
