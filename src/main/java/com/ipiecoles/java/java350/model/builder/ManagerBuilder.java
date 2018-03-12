@@ -1,9 +1,9 @@
 package com.ipiecoles.java.java350.model.builder;
 
-import com.ipiecoles.java.java350.exception.EmployeException;
 import com.ipiecoles.java.java350.model.Entreprise;
 import com.ipiecoles.java.java350.model.Manager;
 import com.ipiecoles.java.java350.model.Technicien;
+import com.ipiecoles.java.java350.exception.EmployeException;
 import org.joda.time.LocalDate;
 
 import java.util.HashSet;

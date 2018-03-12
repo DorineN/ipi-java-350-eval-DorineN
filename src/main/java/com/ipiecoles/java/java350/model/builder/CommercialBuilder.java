@@ -1,8 +1,8 @@
 package com.ipiecoles.java.java350.model.builder;
 
-import com.ipiecoles.java.java350.exception.EmployeException;
 import com.ipiecoles.java.java350.model.Commercial;
 import com.ipiecoles.java.java350.model.Entreprise;
+import com.ipiecoles.java.java350.exception.EmployeException;
 import org.joda.time.LocalDate;
 
 public final class CommercialBuilder {

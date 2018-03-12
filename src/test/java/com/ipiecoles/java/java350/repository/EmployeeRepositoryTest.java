@@ -1,9 +1,8 @@
-package com.ipiecole.java.java360.repository;
+package com.ipiecoles.java.java350.repository;
 
 import com.ipiecoles.java.java350.MySpringApplication;
 import com.ipiecoles.java.java350.model.Commercial;
 import com.ipiecoles.java.java350.model.Employe;
-import com.ipiecoles.java.java350.repository.EmployeRepository;
 import org.assertj.core.api.Assertions;
 
 
@@ -11,7 +10,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
