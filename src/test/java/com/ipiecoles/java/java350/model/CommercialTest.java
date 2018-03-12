@@ -1,12 +1,35 @@
 package com.ipiecoles.java.java350.model;
 
+//import junitparams.Parameters;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 
 /**
  * Created by dorine.niel on 12/03/2018.
- */
+
 public class CommercialTest {
+
+    @Test
+    @Parameterized.Parameters({
+            //"null,500d",
+            "0d,500d",
+            "100000d,500d"
+    })
+
+    @Test
+    public void testPrimeAnnuelle(Double caAnnuel, Double expectedPrime) {
+        //GIVEN - Initialisation des données
+        Commercial commercial = new Commercial();
+        commercial.setCaAnnuel(caAnnuel);
+
+        //WHEN - Exécution/test de la méthode
+        Double prime = commercial.getPrimeAnnuelle();
+
+        //THEN - Vérification par rapport à la sortie de la méthode
+        Assertions.assertThat(prime).isEqualTo(500d);
+    }
 
     @Test
     public void testPrimeAnnuelleWithCANull() {
@@ -61,4 +84,5 @@ public class CommercialTest {
         Assertions.assertThat(prime).isNotNegative();
     }
 
-}
+}*/
+
